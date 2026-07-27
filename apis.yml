@@ -1,8 +1,16 @@
 aid: guidewire-software
 name: Guidewire Software
-description: Guidewire Software is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Guidewire Software provides the cloud platform that Property & Casualty (P&C)
+  insurers run on, spanning policy administration (PolicyCenter), claims
+  management (ClaimCenter), billing (BillingCenter), pricing (PricingCenter), and
+  the all-in-one InsuranceNow platform, all delivered on Guidewire Cloud. The
+  company serves more than 570 insurers across 40 countries and exposes Cloud
+  APIs (REST) plus an app framework and marketplace so partners and customers can
+  integrate policy, claims, and billing data, automate workflows, and extend the
+  InsuranceSuite applications. Guidewire's developer program offers documentation,
+  a developer community, DEVHack hackathon, and a partner marketplace of
+  ready-built integrations and accelerators for the insurance ecosystem.
 url: https://raw.githubusercontent.com/api-evangelist/guidewire-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,83 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.guidewire.com/favicon.ico
 tags:
 - Company
+- Insurance
+- InsurTech
+- Property and Casualty
+- Cloud
+- Policy Administration
+- Claims Management
+- Billing
+- APIs
+- Integration
 apis: []
+common:
+- type: DomainSecurity
+  url: security/guidewire-software-domain-security.yml
+- type: Website
+  url: https://www.guidewire.com/
+- type: DeveloperPortal
+  url: https://www.guidewire.com/developers
+- type: Documentation
+  url: https://docs.guidewire.com/
+- type: APIReference
+  url: https://www.guidewire.com/developers/apis
+- type: GettingStarted
+  url: https://www.guidewire.com/developers/developer-tools-and-guides
+- type: Blog
+  url: https://www.guidewire.com/resources/blog/all-blog-posts?tagName=categoryTags&tagValue=Developers
+- type: Support
+  url: https://community.guidewire.com/s/
+- type: SignUp
+  url: https://www.guidewire.com/sign-in
+- type: TermsOfService
+  url: https://www.guidewire.com/legal-notices
+- type: PrivacyPolicy
+  url: https://www.guidewire.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/guidewire
+- type: Marketplace
+  url: https://marketplace.guidewire.com/
+- type: StatusPage
+  url: https://status.guidewire.com/
+- type: TrustCenter
+  url: https://public-profile.whistic.com/55ebe1b8-59fd-47a0-a2a2-6c5c830b2245
+- type: Compliance
+  url: https://docs.guidewire.com/security/
+- type: Conformance
+  url: conformance/guidewire-software-conformance.yml
+- type: Lifecycle
+  url: lifecycle/guidewire-software-lifecycle.yml
+- type: VulnerabilityDisclosure
+  url: security/guidewire-software-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.guidewire.com/contact-us/vulnerability-disclosure-policy/
+- type: WellKnown
+  url: well-known/guidewire-software-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

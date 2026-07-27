@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.guidewire.com/
+status_page: https://status.guidewire.com/
+release_cadence:
+  note: >-
+    Guidewire Cloud ships on a named seasonal release train (e.g. "Kufri",
+    "Las Lenas", "Innsbruck", "Jasper") delivered several times per year to
+    Guidewire Cloud tenants.
+versioning:
+  scheme: uri-path
+  note: >-
+    Guidewire Cloud API endpoints are versioned in the URI path; detailed
+    versioning and deprecation policy documentation is gated behind the
+    Guidewire developer portal / docs.guidewire.com login.
+docs: https://docs.guidewire.com/
+deprecation:
+  policy_url: null
+  note: Deprecation/sunset policy not publicly documented (docs gated).

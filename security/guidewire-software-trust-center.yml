@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://public-profile.whistic.com/55ebe1b8-59fd-47a0-a2a2-6c5c830b2245
+source: https://www.guidewire.com/resources/help-and-support/trust-and-security
+certifications:
+- SOC 1 Type 2
+- SOC 2 Type 2
+- ISO 27001
+- ISO 27701
+- PCI DSS
+documents:
+- name: Trust & Security overview
+  url: https://www.guidewire.com/resources/help-and-support/trust-and-security
+- name: Whistic public trust profile
+  url: https://public-profile.whistic.com/55ebe1b8-59fd-47a0-a2a2-6c5c830b2245
+- name: Security documentation
+  url: https://docs.guidewire.com/security/
+- name: How we approach security in Guidewire Cloud
+  url: https://developer.guidewire.com/how-we-approach-security-in-guidewire-cloud-part-1/
+notes: >-
+  SOC bridge letters and full SOC 1/SOC 2 reports are distributed via the
+  Guidewire community portal under NDA. GDPR/HIPAA/FedRAMP/CSA STAR are not
+  named on the public trust page.
+evidence:
+- source: https://www.guidewire.com/resources/help-and-support/trust-and-security
+  keywords:
+  - soc 2
+  - iso 27001
+  - iso 27701
+  - pci dss
+  - trust
